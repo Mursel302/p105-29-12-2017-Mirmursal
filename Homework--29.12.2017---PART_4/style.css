@@ -1,0 +1,61 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+.header{
+width: 100%;
+height:auto;
+}
+.header h1{
+    font-size: 4em;
+    text-align: center;
+}
+.header h3{
+    text-align: center;
+    font-size: 2em;
+    margin-top: -28px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.content p{
+    line-height: 2em;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: justify;
+}
+ .left{
+float: left;
+height: 100%;
+width: 46.5%;
+padding: 1em;
+}
+.right{
+float: right;
+height: 100%;
+width: 46.5%;
+padding: 1em;
+}
+.footer{
+    width: 100%;
+    height: auto;
+}
+.footer h1{
+text-align: center;
+margin-top: 13.5em;
+}
+.footer button{
+    height: 3.5em;
+    background: transparent;
+    width: 12em;
+    font-weight: 600;
+    margin-bottom: 5em;
+    margin-left: 44em;
+    margin-top: 3em;
+}
+.footer button:hover{
+    background-color: rgb(32, 31, 31);
+    color: antiquewhite;
+    transition: all ease 0.3s;
+}
