@@ -1,0 +1,44 @@
+.mainWrapper{
+    height: 850px;
+    width:100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border:1px solid black;
+    font-family: 'Open Sans', sans-serif;
+}
+.leftWrapper{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-image: url("images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rightWrapper{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color:#9f6460;
+}
+.innerRightWrapper{
+    width: 55%;
+    height: 100%;
+    margin-left: 5em;
+    padding-top: 1em;
+}
+.innerRightWrapper h4{
+    color: rgb(252, 252, 250);
+    font-weight: 200;
+}
+.innerRightWrapper p{
+    color: rgb(252, 252, 250);
+    font-size: 13px;
+    margin-top: 8em;
+    line-height: 18px;
+}
+.innerRightWrapper img{
+    width: 45px;
+    height: 45px;
+    margin-top: 19.5em;
+}
