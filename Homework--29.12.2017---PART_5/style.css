@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.mainWrapper{
+    width: 100%;
+    height: 635px;
+    background-image: url(images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid black;
+    padding: 2px;
+}
+.innerWrapper{
+    width: 28%;
+    height: 300px;
+    margin-top: 11em;
+    margin-left: 7em;
+}
+.innerWrapper h5{
+    letter-spacing: 0.6px;
+    font-size: 12px;
+}
+.innerWrapper h1{
+    font-size: 3.4em;
+    font-weight: bold;
+    line-height: 0px;
+}
+.innerWrapper p{
+    text-align: justify;
+    text-indent: 20px;
+    margin-top: 3.5em;
+}
