@@ -1,0 +1,81 @@
+body{
+    padding: 0.7em;
+    background: rgb(247, 243, 243);
+    font-family: 'Open Sans', sans-serif;
+}
+.body-wrapper{
+    height: 620px;
+    box-sizing: border-box;
+}
+.leftWrapper{
+    float: left;
+    width: 49.5%;
+    height: 100%;
+    background: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+}
+.leftWrapper .arrow{
+    width: 1em;
+    height: 1em;
+    padding:7px;
+    background-image: url("images/arrow.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.innerLeftWrapper{
+    width: 80%;
+    height: 250px;
+    margin:auto;
+    margin-top: 180px;
+}
+.innerLeftWrapper .image{
+    width: 2.5em;
+    height: 2.5em;
+    background-image: url("images/the-boost.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+}
+.innerLeftWrapper h1{
+    text-align: center;
+    line-height: 2.5em;
+}
+.innerLeftWrapper p{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+}
+.innerLeftWrapper p b{
+    font-weight: bold;
+}
+.innerLeftWrapper p a{
+    color: black;
+    text-decoration: none;
+}
+.rightWrapper{
+    float: left;
+    width: 49.5%;
+    background: black;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 0px!important;
+    box-sizing: border-box;
+}
+.innerRightWrapper{
+   width: 33%;
+   height: 150px;
+   background-image: url("images/email.png");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin:auto;
+   margin-top: 14em;
+}
